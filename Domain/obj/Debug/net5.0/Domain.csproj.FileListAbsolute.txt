@@ -1,0 +1,12 @@
+E:\Projetos em Andamentos\VS\Domain\bin\Debug\net5.0\Domain.deps.json
+E:\Projetos em Andamentos\VS\Domain\bin\Debug\net5.0\Domain.dll
+E:\Projetos em Andamentos\VS\Domain\bin\Debug\net5.0\Domain.pdb
+E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\Domain.dll
+E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\refint\Domain.dll
+E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\Domain.pdb
+E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\ref\Domain.dll

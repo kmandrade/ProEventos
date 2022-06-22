@@ -1,0 +1,17 @@
+E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Services.deps.json
+E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Services.dll
+E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Services.pdb
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\Services.dll
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\refint\Services.dll
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\Services.pdb
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\ref\Services.dll
+E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Data.dll
+E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Domain.dll
+E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Data.pdb
+E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Domain.pdb
+E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\Services.csproj.CopyComplete
