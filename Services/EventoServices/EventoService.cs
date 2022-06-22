@@ -22,22 +22,7 @@ namespace Services.EventoServices
             _mapper = mapper;
         }
 
-        public async Task<Result<CriarEventoDto>> AddEventoDto(CriarEventoDto criarEventoDto)
-        {
-            var buscarEvento = await _eventoRepository.BuscarEventoPorLote(criarEventoDto.Lote);
-            if (buscarEvento!=null)
-            {
-                return Result.Fail("Este Evento já existe");
-            }
-            var evento = _mapper.Map<Evento>(criarEventoDto);
-            evento.Situation = Situation.Active;
-            await _eventoRepository.Add(evento);
-            return Result.Ok();
-        }
-        public Task<Result<CriarEventoDto>> UpdateEventoDto(CriarEventoDto criarEventoDto)
-        {
-            throw new NotImplementedException();
-        }
+        
 
 
         public async Task<IEnumerable<EventoDto>> GetAllEventosDto()
@@ -72,6 +57,29 @@ namespace Services.EventoServices
             }
             var eventoDto = _mapper.Map<EventoDto>(evento);
             return Result.Ok(eventoDto);
+        }
+        public async Task<Result<CriarEventoDto>> AddEventoDto(CriarEventoDto criarEventoDto)
+        {
+            var buscarEvento = await _eventoRepository.BuscarEventoPorLote(criarEventoDto.Lote);
+            if (buscarEvento != null)
+            {
+                return Result.Fail("Este Evento já existe");
+            }
+            var evento = _mapper.Map<Evento>(criarEventoDto);
+            evento.Situation = Situation.Active;
+            await _eventoRepository.Add(evento);
+            return Result.Ok();
+        }
+        public async Task<Result<CriarEventoDto>> UpdateEventoDto(int idEvento, CriarEventoDto criarEventoDto)
+        {
+            var evento = await _eventoRepository.GetById(idEvento);
+            if (evento == null || evento.Situation == Situation.Desactive)
+            {
+                return Result.Fail("Evento nao encontrado");
+            }
+            _mapper.Map(criarEventoDto, evento);
+            await _eventoRepository.Save();
+            return Result.Ok();
         }
 
         public async Task<Result> ArquivarEvento(int idEvento)

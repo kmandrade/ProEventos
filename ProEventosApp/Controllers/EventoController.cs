@@ -30,6 +30,7 @@ namespace ProEventosApp.Controllers
             }
             return Ok(eventos);
         }
+
         [HttpGet("GetEventoById{id}")]
         public async Task<IActionResult> GetEventoById(int id)
         {
@@ -68,6 +69,7 @@ namespace ProEventosApp.Controllers
             }
             return Ok();
         }
+
         [HttpPut("ArquivarEvento{id}")]
         public async Task<IActionResult> ArquivarEvento(int id)
         {
@@ -79,6 +81,7 @@ namespace ProEventosApp.Controllers
             }
             return Ok();
         }
+
         [HttpPut("ReativarEvento{id}")]
         public async Task<IActionResult> ReativarEvento(int id)
         {
@@ -90,6 +93,20 @@ namespace ProEventosApp.Controllers
             }
             return Ok();
         }
+
+        [HttpPut("UpdateEvento{id}")]
+        public async Task<IActionResult> UpdateEvento(int id, [FromBody] CriarEventoDto criarEventoDto)
+        {
+            if (id < 0 || id == 0) { return BadRequest(new { message = "Este numero é invalido" }); }
+            var resultado = await _eventoService.UpdateEventoDto(id, criarEventoDto);
+            if (resultado.IsFailed)
+            {
+                return BadRequest(new { message = resultado.ToString() });
+            }
+            return Ok();
+
+        }
+
         [HttpDelete("DeletarEvento{id}")]
         public async Task<IActionResult> DeletarEvento(int id)
         {

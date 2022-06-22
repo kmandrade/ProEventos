@@ -15,7 +15,7 @@ namespace Services.Interfaces
         Task<Result<EventoDto>> GetByLoteEventoDto(string nomeEvento);
 
         Task<Result<CriarEventoDto>> AddEventoDto(CriarEventoDto criarEventoDto);
-        Task<Result<CriarEventoDto>> UpdateEventoDto(CriarEventoDto criarEventoDto);
+        Task<Result<CriarEventoDto>> UpdateEventoDto(int idEvento,CriarEventoDto criarEventoDto);
         Task<Result> DeletarEvento(int idEvento);
         Task<Result> ArquivarEvento(int idEvento);
         Task<Result> ReativarEvento(int idEvento);
