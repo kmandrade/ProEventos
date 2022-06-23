@@ -20,7 +20,7 @@ namespace ProEventosApp.Controllers
         }
 
         
-        [HttpGet("GetAllEventos")]
+        [HttpGet]
         public async Task<IActionResult> GetAllEventos()
         {
             var eventos = await _eventoService.GetAllEventosDto();

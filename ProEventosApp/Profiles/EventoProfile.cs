@@ -15,8 +15,8 @@ namespace ProEventosApp.Profiles
                 .ForMember(dto => dto.Tema, opt => opt.MapFrom(evt => evt.Tema))
                 .ForMember(dto => dto.QtdPessoas, opt => opt.MapFrom(evt => evt.QtdPessoas))
                 .ForMember(dto => dto.Lote, opt => opt.MapFrom(evt => evt.Lote))
-                .ForMember(dto => dto.ImgURL, opt => opt.MapFrom(evt => evt.ImgURL))
-                .ForMember(dto => dto.Situation, opt => opt.MapFrom(evt => evt.Situation));
+                .ForMember(dto => dto.ImgURL, opt => opt.MapFrom(evt => evt.ImgURL));
+                
 
             CreateMap<CriarEventoDto, Evento>()
                 .ForMember(dto => dto.Local, opt => opt.MapFrom(evt => evt.Local))
