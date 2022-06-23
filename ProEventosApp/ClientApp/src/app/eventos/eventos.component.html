@@ -3,6 +3,7 @@
 <table class="table">
   <thead>
     <tr>
+      <th scope="col">Actions</th>
       <th scope="col">Local</th>
       <th scope="col">Data do Evento</th>
       <th scope="col">Tema</th>
@@ -14,13 +15,14 @@
   </thead>
   <tbody>
     <tr *ngFor="let evento of eventos">
+      <th scope="row"><button class="btn-primary">Editar</button></th>
       <th scope="row">{{evento.local}}</th>
       <th scope="row">{{evento.dataEvento}}</th>
       <th scope="row">{{evento.tema}}</th>
       <th scope="row">{{evento.qtdPessoas}}</th>
       <th scope="row">{{evento.lote}}</th>
       <th scope="row">{{evento.imgURL}}</th>
-      
+
     </tr>
     
   </tbody>
