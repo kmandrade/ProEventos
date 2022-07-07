@@ -119,6 +119,7 @@ namespace Services.EventoServices
             await _eventoRepository.DeleteById(idEvento);
             return Result.Ok();
             //oioioio
+            /////
         }
 
     }
