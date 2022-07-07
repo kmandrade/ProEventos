@@ -29,6 +29,7 @@ namespace ProEventosApp
             services.AddSwaggerConfiguration();
             services.AddControllersWithViews();
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddMemoryCache();
 
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

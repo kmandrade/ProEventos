@@ -2,8 +2,11 @@
 using Domain.Dtos;
 using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using Services.EventoServices;
 using Services.Interfaces;
+using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ProEventosApp.Controllers
@@ -13,22 +16,40 @@ namespace ProEventosApp.Controllers
     public class EventoController : ControllerBase
     {
         private readonly IEventoService _eventoService;
-
-        public EventoController(IEventoService eventoService)
+        private readonly IMemoryCache _memoryCache;
+        private const string EVENTOS_KEY = "Eventos";
+        public EventoController(IEventoService eventoService, IMemoryCache memoryCache)
         {
             _eventoService = eventoService;
+            _memoryCache = memoryCache;
         }
 
-        
+
         [HttpGet]
         public async Task<IActionResult> GetAllEventos()
         {
-            var eventos = await _eventoService.GetAllEventosDto();
+            //checar se existe essa informação na memoria
+            if (_memoryCache.TryGetValue(EVENTOS_KEY,out IEnumerable<EventoDto> eventos))
+            {
+                return Ok(eventos);
+            }
+            eventos = await _eventoService.GetAllEventosDto();
             if (eventos == null)
             {
                 return BadRequest(new { message = "Nao foi possivel buscar os Eventos" });
             }
+            //adicionando um tempo de expiração
+            var memoryCacheEntryOptions = new MemoryCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(3600),
+                SlidingExpiration = TimeSpan.FromSeconds(1200)//se n for acessado em absolute ele entra nesse
+            };
+
+            //setando a informação no cach
+            _memoryCache.Set(EVENTOS_KEY,eventos,memoryCacheEntryOptions);
+
             return Ok(eventos);
+
         }
 
         [HttpGet("GetEventoById{id}")]
