@@ -15,3 +15,20 @@ E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Domain.dll
 E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Data.pdb
 E:\Projetos em Andamentos\VS\Services\bin\Debug\net5.0\Domain.pdb
 E:\Projetos em Andamentos\VS\Services\obj\Debug\net5.0\Services.csproj.CopyComplete
+D:\ASP.NET\FullStack\Services\bin\Debug\net5.0\Services.deps.json
+D:\ASP.NET\FullStack\Services\bin\Debug\net5.0\Services.dll
+D:\ASP.NET\FullStack\Services\bin\Debug\net5.0\Services.pdb
+D:\ASP.NET\FullStack\Services\bin\Debug\net5.0\Data.dll
+D:\ASP.NET\FullStack\Services\bin\Debug\net5.0\Domain.dll
+D:\ASP.NET\FullStack\Services\bin\Debug\net5.0\Data.pdb
+D:\ASP.NET\FullStack\Services\bin\Debug\net5.0\Domain.pdb
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\Services.csproj.CopyComplete
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\Services.dll
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\refint\Services.dll
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\Services.pdb
+D:\ASP.NET\FullStack\Services\obj\Debug\net5.0\ref\Services.dll

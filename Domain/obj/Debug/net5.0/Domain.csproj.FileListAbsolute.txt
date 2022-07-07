@@ -10,3 +10,15 @@ E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\Domain.dll
 E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\refint\Domain.dll
 E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\Domain.pdb
 E:\Projetos em Andamentos\VS\Domain\obj\Debug\net5.0\ref\Domain.dll
+D:\ASP.NET\FullStack\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\ASP.NET\FullStack\Domain\bin\Debug\net5.0\Domain.dll
+D:\ASP.NET\FullStack\Domain\bin\Debug\net5.0\Domain.pdb
+D:\ASP.NET\FullStack\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\ASP.NET\FullStack\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\FullStack\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\ASP.NET\FullStack\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\ASP.NET\FullStack\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\ASP.NET\FullStack\Domain\obj\Debug\net5.0\Domain.dll
+D:\ASP.NET\FullStack\Domain\obj\Debug\net5.0\refint\Domain.dll
+D:\ASP.NET\FullStack\Domain\obj\Debug\net5.0\Domain.pdb
+D:\ASP.NET\FullStack\Domain\obj\Debug\net5.0\ref\Domain.dll

@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Usuário\\.nuget\\packages\\": {}
+    "C:\\Users\\Kelvin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos em Andamentos\\VS\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\ASP.NET\\FullStack\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\Projetos em Andamentos\\VS\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos em Andamentos\\VS\\Domain\\obj\\",
+      "projectPath": "D:\\ASP.NET\\FullStack\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Kelvin\\.nuget\\packages\\",
+      "outputPath": "D:\\ASP.NET\\FullStack\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kelvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
